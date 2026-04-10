@@ -18,6 +18,14 @@
         "ignoreMouseInput": false,
         "overviewLayer": false,
         "pinnedApps": [
+            "com.example.piliplus",
+            "qq",
+            "steam",
+            "code",
+            "firefox",
+            "Clash Verge",
+            "flclash",
+            "kitty"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
@@ -42,7 +50,7 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0,
+        "backgroundOpacity": 0.36,
         "barType": "floating",
         "capsuleColorKey": "none",
         "capsuleOpacity": 0.36,
@@ -207,6 +215,15 @@
                     "unreadBadgeColor": "primary"
                 },
                 {
+                    "defaultSettings": {
+                        "enableTodoIntegration": false,
+                        "notecardsEnabled": true,
+                        "pincardsEnabled": true,
+                        "showCloseButton": true
+                    },
+                    "id": "plugin:clipper"
+                },
+                {
                     "deviceNativePath": "__default__",
                     "displayMode": "graphic-clean",
                     "hideIfIdle": false,
@@ -236,19 +253,6 @@
                         "windowWidth": 1400
                     },
                     "id": "plugin:keybind-cheatsheet"
-                },
-                {
-                    "defaultSettings": {
-                        "activeBackend": "qt6-multimedia",
-                        "automationMode": "random",
-                        "automationTime": 300,
-                        "fillMode": "fit",
-                        "mpvSocket": "/tmp/mpv-socket",
-                        "profile": "default",
-                        "volume": 1,
-                        "wallpapersFolder": "~/Pictures/Wallpapers"
-                    },
-                    "id": "plugin:video-wallpaper"
                 },
                 {
                     "defaultSettings": {
@@ -286,6 +290,12 @@
                     "id": "plugin:kde-connect"
                 },
                 {
+                    "defaultSettings": {
+                        "mode": "region"
+                    },
+                    "id": "plugin:screenshot"
+                },
+                {
                     "colorizeSystemIcon": "none",
                     "customIconPath": "",
                     "enableColorization": false,
@@ -321,7 +331,7 @@
         ]
     },
     "colorSchemes": {
-        "darkMode": false,
+        "darkMode": true,
         "generationMethod": "fruit-salad",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
@@ -563,7 +573,7 @@
         "disableWallpaper": true
     },
     "notifications": {
-        "backgroundOpacity": 0.44,
+        "backgroundOpacity": 0.68,
         "clearDismissed": true,
         "criticalUrgencyDuration": 15,
         "density": "default",
@@ -759,10 +769,10 @@
                 "darkMode": false,
                 "generationMethod": "fruit-salad",
                 "paletteColors": [
-                    "#9c4332",
-                    "#904b3e",
-                    "#7c580d",
-                    "#ba1a1a"
+                    "#ffb958",
+                    "#f6bc70",
+                    "#bdce80",
+                    "#ffb4ab"
                 ],
                 "path": "/home/Flandery/FlanderyGames/Wallpaper/2.png",
                 "useWallpaperColors": true
@@ -792,7 +802,7 @@
         "overviewEnabled": true,
         "overviewTint": 0.6,
         "panelPosition": "center",
-        "randomIntervalSec": 300,
+        "randomIntervalSec": 600,
         "setWallpaperOnAllMonitors": true,
         "showHiddenFiles": true,
         "skipStartupTransition": false,

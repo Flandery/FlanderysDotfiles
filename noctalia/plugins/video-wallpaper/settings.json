@@ -1,5 +1,5 @@
 {
-  "activeBackend": "qt6-multimedia",
+  "activeBackend": "mpvpaper",
   "automationMode": "random",
   "automationTime": 300,
   "fillMode": "fit",
@@ -8,10 +8,20 @@
   "volume": 1,
   "wallpapersFolder": "/home/Flandery/FlanderyGames/Wallpaper",
   "thumbCacheReady": true,
-  "enabled": false,
+  "enabled": true,
   "DP-2": {
     "currentWallpaper": "/home/Flandery/FlanderyGames/Wallpaper/17v2.mp4",
-    "noctaliaWallpaper": "/home/Flandery/FlanderyGames/Wallpaper/wallhaven-ml9kpy_2560x1440.png",
-    "isPlaying": true
-  }
+    "noctaliaWallpaper": "/home/Flandery/FlanderyGames/Wallpaper/2.png",
+    "isPlaying": true,
+    "volume": 1,
+    "automation": false,
+    "automationMode": "random",
+    "automationTime": 300,
+    "hardwareAcceleration": false,
+    "profile": "default",
+    "fillMode": "",
+    "orientation": 0
+  },
+  "monitorSpecific": false,
+  "automationCustomTime": []
 }
