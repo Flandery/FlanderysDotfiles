@@ -3,7 +3,7 @@
   "wallpapersFolder": "/home/Flandery/FlanderyGames/Wallpaper",
   "profile": "default",
   "fillMode": "fit",
-  "thumbCacheReady": true,
+  "thumbCacheReady": false,
   "currentWallpaper": "/home/Flandery/FlanderyGames/Wallpaper/17v2.mp4",
   "isPlaying": true,
   "active": true,
@@ -13,12 +13,12 @@
   "automationTime": 300,
   "oldWallpapers": {
     "": {
-      "light": "/home/Flandery/FlanderyGames/Wallpaper/2.png",
-      "dark": "/home/Flandery/FlanderyGames/Wallpaper/2.png"
+      "light": "/home/Flandery/FlanderyGames/Wallpaper/0(3)2.png",
+      "dark": "/home/Flandery/FlanderyGames/Wallpaper/0(3)2.png"
     },
     "DP-2": {
-      "light": "/home/Flandery/FlanderyGames/Wallpaper/wallhaven-ml9kpy_2560x1440.png",
-      "dark": "/home/Flandery/FlanderyGames/Wallpaper/wallhaven-ml9kpy_2560x1440.png"
+      "light": "/home/Flandery/FlanderyGames/Wallpaper/0(3)2.png",
+      "dark": "/home/Flandery/FlanderyGames/Wallpaper/0(3)2.png"
     }
   },
   "isMuted": false

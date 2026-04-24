@@ -8,10 +8,10 @@
   "volume": 1,
   "wallpapersFolder": "/home/Flandery/FlanderyGames/Wallpaper",
   "thumbCacheReady": true,
-  "enabled": true,
+  "enabled": false,
   "DP-2": {
-    "currentWallpaper": "/home/Flandery/FlanderyGames/Wallpaper/17v2.mp4",
-    "noctaliaWallpaper": "/home/Flandery/FlanderyGames/Wallpaper/2.png",
+    "currentWallpaper": "",
+    "noctaliaWallpaper": "/home/Flandery/FlanderyGames/Wallpaper/0(3)2.png",
     "isPlaying": true,
     "volume": 1,
     "automation": false,
@@ -23,5 +23,8 @@
     "orientation": 0
   },
   "monitorSpecific": false,
-  "automationCustomTime": []
+  "automationCustomTime": [],
+  "": {
+    "isPlaying": true
+  }
 }

@@ -25,7 +25,12 @@
             "firefox",
             "Clash Verge",
             "flclash",
-            "kitty"
+            "kitty",
+            "vscodium",
+            "vscodium-wayland",
+            "emacs",
+            "spotify",
+            "SPlayer"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
@@ -50,20 +55,20 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0.36,
+        "backgroundOpacity": 0.24,
         "barType": "floating",
         "capsuleColorKey": "none",
-        "capsuleOpacity": 0.36,
+        "capsuleOpacity": 0.34,
         "contentPadding": 2,
         "density": "comfortable",
         "displayMode": "always_visible",
         "enableExclusionZoneInset": true,
-        "fontScale": 1,
+        "fontScale": 1.1,
         "frameRadius": 12,
         "frameThickness": 8,
         "hideOnOverview": false,
-        "marginHorizontal": 4,
-        "marginVertical": 4,
+        "marginHorizontal": 18,
+        "marginVertical": 6,
         "middleClickAction": "none",
         "middleClickCommand": "",
         "middleClickFollowMouse": false,
@@ -294,6 +299,18 @@
                         "mode": "region"
                     },
                     "id": "plugin:screenshot"
+                },
+                {
+                    "defaultSettings": {
+                        "autoMount": false,
+                        "fileBrowser": "yazi",
+                        "hideWhenEmpty": false,
+                        "iconColor": "none",
+                        "showBadge": false,
+                        "showNotifications": true,
+                        "terminalCommand": "kitty"
+                    },
+                    "id": "plugin:usb-drive-manager"
                 },
                 {
                     "colorizeSystemIcon": "none",
@@ -535,7 +552,7 @@
     },
     "location": {
         "analogClockInCalendar": false,
-        "autoLocate": false,
+        "autoLocate": true,
         "firstDayOfWeek": -1,
         "hideWeatherCityName": false,
         "hideWeatherTimezone": false,
@@ -783,10 +800,10 @@
                 "darkMode": false,
                 "generationMethod": "fruit-salad",
                 "paletteColors": [
-                    "#9c4332",
-                    "#904b3e",
-                    "#7c580d",
-                    "#ba1a1a"
+                    "#ffb4a6",
+                    "#ffb4a6",
+                    "#f0bf6d",
+                    "#ffb4ab"
                 ],
                 "path": "/home/Flandery/FlanderyGames/Wallpaper/0(3)2.png",
                 "useWallpaperColors": true
