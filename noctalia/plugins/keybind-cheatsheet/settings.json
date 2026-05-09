@@ -90,7 +90,7 @@
         },
         {
           "keys": "Super + D",
-          "desc": "Run: qs -c noctalia-shell ipc call launcher toggle"
+          "desc": "Launcher"
         },
         {
           "keys": "Super + O",
@@ -508,5 +508,12 @@
       ]
     }
   ],
-  "detectedCompositor": "niri"
+  "detectedCompositor": "niri",
+  "windowWidth": 1400,
+  "windowHeight": 0,
+  "autoHeight": true,
+  "columnCount": 3,
+  "modKeyVariable": "$mod",
+  "hyprlandConfigPath": "~/.config/hypr/hyprland.conf",
+  "niriConfigPath": "~/.config/niri/config.kdl"
 }

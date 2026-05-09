@@ -68,7 +68,7 @@
         "frameThickness": 8,
         "hideOnOverview": false,
         "marginHorizontal": 18,
-        "marginVertical": 6,
+        "marginVertical": 14,
         "middleClickAction": "none",
         "middleClickCommand": "",
         "middleClickFollowMouse": false,
@@ -301,18 +301,6 @@
                     "id": "plugin:screenshot"
                 },
                 {
-                    "defaultSettings": {
-                        "autoMount": false,
-                        "fileBrowser": "yazi",
-                        "hideWhenEmpty": false,
-                        "iconColor": "none",
-                        "showBadge": false,
-                        "showNotifications": true,
-                        "terminalCommand": "kitty"
-                    },
-                    "id": "plugin:usb-drive-manager"
-                },
-                {
                     "colorizeSystemIcon": "none",
                     "customIconPath": "",
                     "enableColorization": false,
@@ -349,7 +337,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "fruit-salad",
+        "generationMethod": "content",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
@@ -471,11 +459,11 @@
         "clockStyle": "custom",
         "compactLockScreen": false,
         "dimmerOpacity": 0.16,
-        "enableBlurBehind": true,
+        "enableBlurBehind": false,
         "enableLockScreenCountdown": true,
         "enableLockScreenMediaControls": false,
         "enableShadows": true,
-        "forceBlackScreenCorners": false,
+        "forceBlackScreenCorners": true,
         "iRadiusRatio": 1.2,
         "keybinds": {
             "keyDown": [
@@ -519,7 +507,7 @@
         "shadowOffsetY": 3,
         "showChangelogOnStartup": true,
         "showHibernateOnLockScreen": false,
-        "showScreenCorners": false,
+        "showScreenCorners": true,
         "showSessionButtonsOnLockScreen": true,
         "smoothScrollEnabled": true,
         "telemetryEnabled": false
@@ -784,12 +772,12 @@
                 "appearance": "light",
                 "colorScheme": "Noctalia (default)",
                 "darkMode": false,
-                "generationMethod": "fruit-salad",
+                "generationMethod": "content",
                 "paletteColors": [
-                    "#ffb958",
-                    "#f6bc70",
-                    "#bdce80",
-                    "#ffb4ab"
+                    "#536600",
+                    "#57642b",
+                    "#006e25",
+                    "#ba1a1a"
                 ],
                 "path": "/home/Flandery/FlanderyGames/Wallpaper/2.png",
                 "useWallpaperColors": true
@@ -798,12 +786,12 @@
                 "appearance": "light",
                 "colorScheme": "Noctalia (default)",
                 "darkMode": false,
-                "generationMethod": "fruit-salad",
+                "generationMethod": "content",
                 "paletteColors": [
-                    "#ffb4a6",
-                    "#ffb4a6",
-                    "#f0bf6d",
-                    "#ffb4ab"
+                    "#1d6584",
+                    "#4b616e",
+                    "#735186",
+                    "#ba1a1a"
                 ],
                 "path": "/home/Flandery/FlanderyGames/Wallpaper/0(3)2.png",
                 "useWallpaperColors": true
@@ -824,7 +812,7 @@
         "showHiddenFiles": true,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
-        "sortOrder": "date_desc",
+        "sortOrder": "name_desc",
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": [

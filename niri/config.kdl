@@ -301,6 +301,7 @@ layout {
 spawn-at-startup "waybar"
 //spawn-at-startup "noctalia-shell"
 spawn-at-startup "qs" "-c" "noctalia-shell"
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
